@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1b2128;
+}
+
+#heading{
+  color: rgb(27, 119, 164);
+  margin: 20px;
+  text-align: center;
+}
+
+#addCart, #addWishCart, #addSaleCart, #removeCart{
+  width: 150px;
+  height: 30px;
+  padding: 2px;
+  margin: 5px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(27, 119, 164);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#addCart:hover, #addWishCart:hover, #addSaleCart:hover, #removeCart:hover{
+  background-color: rgb(197, 205, 211);
+}
+#cart-summary{
+  text-align: center;
+  color: rgb(27, 119, 164);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
